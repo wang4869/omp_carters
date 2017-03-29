@@ -39,16 +39,6 @@
     <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
     <script src="{{URL::asset('public/js/share.js')}}"></script>
     <script src="{{URL::asset('public/js/common.js')}}"></script>
-    
-    <script>
-    alert('测试数据，定期清除');
-    </script>
-
-
-
-
-
-
 
     <!--移动端版本兼容 -->
 
