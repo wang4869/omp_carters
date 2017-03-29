@@ -34,7 +34,7 @@
 
     
 
-    <script src="http://carters.ompchina.net/js/project.js"></script>
+    <script src="http://h5.cartersonline.cn/js/project.js"></script>
     
     <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
     <script src="{{URL::asset('public/js/share.js')}}"></script>

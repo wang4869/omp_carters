@@ -1,6 +1,6 @@
 var appId,timestamp,nonceStr,signature;
-//var domain="http://www.cartersonline.cn/";
-var domain="http://carters.ompchina.net/";
+var domain="http://h5.cartersonline.cn/";
+//var domain="http://carters.ompchina.net/";
 
 $(function(){
 	var url=window.location.href;
