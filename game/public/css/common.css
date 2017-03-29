@@ -1,0 +1,658 @@
+/* Global Setting */
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: left;
+
+    font-size: 12px;
+
+    font-family: 'SimHei', Arial;
+
+    background: #FFF;
+
+}
+
+
+
+table {
+
+    border-collapse: collapse;
+
+}
+
+
+
+td, th {
+
+    padding: 0;
+
+}
+
+
+
+ul, li, dd, dl, dt {
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style: none;
+
+    word-break: break-all;
+
+}
+
+
+
+img {
+
+    border: 0;
+
+}
+
+
+
+p {
+
+    margin: 0;
+
+    word-break: break-all;
+
+}
+
+
+
+h1, h2, h3, h4 {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-weight: normal;
+
+    font-size: 14px;
+
+}
+
+
+
+em {
+
+    font-size: 12px;
+
+    font-style: normal;
+
+}
+
+
+
+hr {
+
+    background: none;
+
+    border: none;
+
+    border-bottom: 1px solid #CCC;
+
+    #border-bottom: 0;
+
+}
+
+
+
+.clear {
+
+    clear: both;
+
+    height: 0;
+
+    font-size: 1px;
+
+    line-height: 0px;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+    border: 0;
+
+    outline: none;
+
+    blr: expression(this.onFocus=this.blur());
+
+}
+
+
+
+select, input, textarea {
+
+    font-family: inherit;
+
+    outline: none;
+
+}
+
+
+
+.wrapper {
+
+    width: 640px;
+
+    margin: 0 auto;
+
+    border: none;
+
+    padding: 0;
+
+    position: relative;
+
+}
+
+
+
+.innerDiv {
+
+    width: 100%;
+
+    height: 100%;
+
+    position: relative;
+
+}
+
+
+
+.abs {
+
+    position: absolute;
+
+}
+
+
+
+.bgImg {
+
+    width: 640px;
+
+    height: 1039px;
+
+    display: block;
+
+}
+
+
+
+.page {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+}
+
+
+
+.indexBtn1 {
+
+    left: 190px;
+
+    top: 853px;
+
+}
+
+
+
+.indexBtn2 {
+
+    left: 503px;
+
+    top: 976px;
+
+}
+
+
+
+.productImg {
+
+    border-radius: 50%;
+
+    width: 220px;
+
+    height: 220px;
+
+}
+
+
+
+.ipiTip {
+
+    background: url("../images/indexTip.png") 0 0 no-repeat;
+
+    width: 91px;
+
+    height: 90px;
+
+    position: absolute;
+
+}
+
+
+
+.indexProductInit:nth-child(1) .productImg {
+
+    left: 78.5px;
+
+    top: 325.5px;
+
+}
+
+
+
+.indexProductInit:nth-child(2) .productImg {
+
+    left: 348.5px;
+
+    top: 325.5px;
+
+}
+
+
+
+.indexProductInit:nth-child(3) .productImg {
+
+    left: 83.5px;
+
+    top: 595px;
+
+}
+
+
+
+.indexProductInit:nth-child(4) .productImg {
+
+    left: 352.5px;
+
+    top: 595px;
+
+}
+
+
+
+.indexProductInit:nth-child(1) .ipiTip {
+
+    left: 217px;
+
+    top: 305px;
+
+}
+
+
+
+.indexProductInit:nth-child(2) .ipiTip {
+
+    left: 487px;
+
+    top: 305px;
+
+    background-position: -91px 0;
+
+}
+
+
+
+.indexProductInit:nth-child(3) .ipiTip {
+
+    left: 74px;
+
+    top: 575px;
+
+}
+
+
+
+.indexProductInit:nth-child(4) .ipiTip {
+
+    left: 343px;
+
+    top: 575px;
+
+    background-position: -91px 0;
+
+}
+
+
+
+.ipitName {
+
+    color: #e2ea23;
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 32px 0 10px 0;
+
+    height: 16px;
+
+    line-height: 16px;
+
+    font-size: 12px;
+
+    display: inline-block;
+
+}
+
+
+
+.ipitPrice {
+
+    width: 100%;
+
+    padding: 0;
+
+    text-align: center;
+
+    height: 20px;
+
+    line-height: 20px;
+
+    font-size: 14px;
+
+    color: #01afd2;
+
+    display: inline-block;
+
+}
+
+
+
+.ipitPrice font {
+
+    color: #FFF;
+
+    font-size: 20px;
+
+    text-shadow: #01afd2 1px 0 0, #01afd2 0 1px 0, #01afd2 -1px 0 0, #01afd2 0 -1px 0;
+
+    -webkit-text-shadow: #01afd2 1px 0 0, #01afd2 0 1px 0, #01afd2 -1px 0 0, #01afd2 0 -1px 0;
+
+    -moz-text-shadow: #01afd2 1px 0 0, #01afd2 0 1px 0, #01afd2 -1px 0 0, #01afd2 0 -1px 0;
+
+    font-style: italic;
+
+}
+
+
+
+.closeBtn {
+
+    left: 490px;
+
+    top: 135px;
+
+}
+
+
+
+.selSex {
+
+    width: 83px;
+
+    height: 24px;
+
+    background: url("../images/pageInfoIcon1.png") -130px 3px no-repeat;
+
+    position: absolute;
+
+    top: 198px;
+
+}
+
+
+
+.selSex1 {
+
+    left: 258px;
+
+}
+
+
+
+.selSex2 {
+
+    left: 388px;
+
+}
+
+
+
+.selSexOn {
+
+    background-position: 0 3px;
+
+}
+
+
+
+.infoTxt {
+
+    width: 247px;
+
+    height: 44px;
+
+    line-height: 44px;
+
+    padding: 0 10px;
+
+    background: none;
+
+    border: none;
+
+    position: absolute;
+
+    left: 256px;
+
+    font-size: 20px;
+
+    color: #FFF;
+
+}
+
+
+
+.infoTxt1 {
+
+    top: 254px;
+
+}
+
+
+
+.infoTxt2 {
+
+    top: 330px;
+
+}
+
+
+
+.infoTxt3 {
+
+    top: 406px;
+
+    width: 185px;
+
+}
+
+
+
+.infoTxt4 {
+
+    top: 482px;
+
+}
+
+
+
+.infoTxt5 {
+
+    top: 556px;
+
+}
+
+
+
+.infoTxt6 {
+
+    top: 632px;
+
+}
+
+
+
+.smsBtn {
+
+    display: block;
+
+    text-align: center;
+
+    width: 60px;
+
+    height: 36px;
+
+    padding: 3px 0 5px 0;
+
+    line-height: 18px;
+
+    color: #FFF;
+
+    font-size: 14px;
+
+    left: 465px;
+
+    top: 406px;
+
+}
+
+
+
+.smsBtnIng {
+
+    line-height: 36px;
+
+    color: #CCCCCC;
+
+    font-size: 18px;
+
+}
+
+
+
+.pageInfoBtn1 {
+
+    left: 205px;
+
+    top: 750px;
+
+}
+
+
+
+.pageInfoBtn2 {
+
+    left: 225px;
+
+    top: 590px;
+
+}
+
+
+
+.prizeImgBlock {
+
+    width: 311px;
+
+    height: 310px;
+
+    left: 167px;
+
+    top: 356px;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+}
+
+
+
+.prizeNumb {
+
+    width: 30px;
+
+    height: 28px;
+
+    line-height: 100%;
+
+    font-size: 28px;
+
+    color: #00b0d2;
+
+    left: 390px;
+
+    top: 768px;
+
+}
+
+
+
+.pageLotteryBtn1 {
+
+    left: 212px;
+
+    top: 856px;
+
+}
+
+
+
+.pageLotteryBtn2 {
+
+    left: 218px;
+
+    top: 542px;
+
+}
+
+.pageLotteryBtn3{
+	left:245px; top:690px;
+	}
+
+
+
+.awardName{ width:475px; height:70px; line-height:70px; font-size:30px; color:#00b0d3; text-align:center; position:absolute; left:89px; top:238px;}
+
+.awardName img{ vertical-align:bottom; display:inline;}
+
+
+
+
+
+
+
+
+
+
+
+
+

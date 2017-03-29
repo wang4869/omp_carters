@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>常规问题</title>
+<link rel="stylesheet" href="css/common.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="http://carters.ompchina.net/js/project.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="js/share.js"></script>
+<script src="js/common.js"></script>
+
+<!--移动端版本兼容 -->
+<script type="text/javascript">
+var phoneWidth =  parseInt(window.screen.width);
+var phoneScale = phoneWidth/640;
+var ua = navigator.userAgent;
+if (/Android (\d+\.\d+)/.test(ua)){
+	var version = parseFloat(RegExp.$1);
+	if(version>2.3){
+		document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+	}else{
+		document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+	}
+} else {
+	document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+}
+</script>
+<!--移动端版本兼容 end -->
+
+</head>
+
+<body>
+
+<div class="wrapper">
+	<img src="images/img2_01.jpg" width="640" height="865">
+    <img src="images/img2_02.jpg" width="640" height="838">
+    <img src="images/img2_03.jpg" width="640" height="936">
+    <img src="images/img2_04.jpg" width="640" height="879">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>附近门店</title>
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="http://carters.ompchina.net/js/project.js"></script>
+    <script src="js/distpicker.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="js/share.js"></script>
+    <script src="js/common.js"></script>
+
+    <!--移动端版本兼容 -->
+    <script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+    <!--移动端版本兼容 end -->
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div id="map" class="map"></div>
+    <div class="searchLine">
+    	<div class="innerDiv" data-toggle="distpicker">
+        	<div class="sel sel1">选择省</div>
+            <div class="sel sel2">选择市</div>
+            <div class="sel sel3">选择区</div>
+        	<select class="form-control form-control1" data-province="选择省"></select>
+            <select class="form-control form-control2" data-city="选择市"></select>
+            <select class="form-control form-control3" data-district="选择区"></select>
+            <input type="text" class="formTxt">
+            <a href="javascript:void(0);" class="searchBtn" onClick="searchShop();"><img src="images/space.gif" width="42" height="46"></a>
+        </div>
+    </div>
+    <div class="listPop" style="display:none;"></div>
+</div>
+
+<div class="noShop" style="display:none;" ontouchstart="$('.noShop').hide();">
+	<img src="images/noShop.png" ontouchstart="$('.noShop').hide();">
+</div>
+
+</body>
+</html>
