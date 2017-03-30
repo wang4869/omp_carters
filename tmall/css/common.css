@@ -100,4 +100,4 @@ select, input, textarea {
     top: 0;
 }
 .tmallBg{ background:url(../images/tmall.jpg) 0 0 no-repeat;}
-.tmallTxt{ color:#5d5d5d; font-size:24px; line-height:42px; position:absolute; left:115px; top:680px; width:410px; height:126px; overflow:hidden; word-break:keep-all;}
+.tmallTxt{ color:#5d5d5d; font-size:24px; line-height:42px; position:absolute; left:115px; top:680px; width:410px; height:126px; overflow:hidden; word-break:keep-all; text-align:center;}
